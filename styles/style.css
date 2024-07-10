@@ -9,9 +9,13 @@
   text-align: center;
 }
 
-.common-title {
+.common-title-weight {
   color: #0d1321;
   font-weight: 800;
+}
+
+.common-para {
+  font-size: 16px;
 }
 
 .azeret-mono-normal {
@@ -22,7 +26,7 @@
 
 /* Banner Style starts here */
 .banner-content {
-  width: 60vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,11 +55,7 @@
 
 .banner-title {
   font-size: 48px;
-}
-
-.banner-description {
-  font-size: 16px;
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .btn-contact {
@@ -68,8 +68,58 @@
 .btn-contact a {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
   text-decoration: none;
+  color: #ffffff;
 }
 
 /* Banner Style ends here */
+
+
+
+
+/* "Web Development" part starts */
+.web-deve-container {
+  max-width: 70vw;
+  background-color: #0d132110;
+  margin-top: 50px;
+  border-radius: 16px;
+  padding: 80px 98px;
+}
+
+.web-dev-card {
+  padding: 48px;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.card-img {
+  margin-left: 15px;
+}
+.btn-learn-more {
+  padding: 12px 20px;
+  border: 1px solid gray;
+  margin-top: 36px;
+}
+
+.btn-learn-more a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #565a64;
+  text-decoration: none;
+}
+
+.secondary {
+  margin-left: 32px;
+}
+/* "Web Development" part starts */
+
+
