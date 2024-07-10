@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 /* Banner Style starts here */
 .banner-content {
   width: 50vw;
