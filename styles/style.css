@@ -9,10 +9,6 @@
   text-align: center;
 }
 
-.common-title-weight {
-  color: #0d1321;
-  font-weight: 800;
-}
 
 .common-para {
   font-size: 16px;
@@ -71,17 +67,16 @@
   text-decoration: none;
   color: #ffffff;
 }
-
 /* Banner Style ends here */
 
 
 
 
 /* "Web Development" part starts */
-.web-deve-container {
+.web-deve-section {
   max-width: 70vw;
   background-color: #0d132110;
-  margin-top: 50px;
+  margin: 50px auto 50px;
   border-radius: 16px;
   padding: 80px 98px;
 }
@@ -100,7 +95,6 @@
   line-height: 36px;
   font-weight: bold;
 }
-
 .card-img {
   margin-left: 15px;
 }
@@ -109,17 +103,36 @@
   border: 1px solid gray;
   margin-top: 36px;
 }
-
 .btn-learn-more a {
   font-size: 20px;
   font-weight: 700;
   color: #565a64;
   text-decoration: none;
 }
-
 .secondary {
   margin-left: 32px;
 }
+.web-dev-title, .inspiration-title {
+    margin-bottom: 20px;
+}
 /* "Web Development" part starts */
+
+
+
+/* My Inspiration Section */
+.youtube-thumb{
+
+    border: 2px solid #0d132110;
+    margin: 50px auto 50px;
+    border-radius: 16px;
+    padding: 80px 98px;
+}
+.youtube-thumb>iframe{
+    border-radius: 16px;
+}
+.inspiration-section{
+    max-width: 70vw;
+}
+
 
 
