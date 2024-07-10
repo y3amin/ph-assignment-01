@@ -1,0 +1,75 @@
+/* Common Style */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.common-title {
+  color: #0d1321;
+  font-weight: 800;
+}
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Banner Style starts here */
+.banner-content {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* for hero-bg and opacity */
+.banner {
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.2;
+  z-index: -1; /* sends the image layer back, upper content remains intact */
+}
+
+.banner-avater,
+.btn-contact {
+  margin: 32px auto 32px;
+}
+
+.banner-title {
+  font-size: 48px;
+}
+
+.banner-description {
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.btn-contact {
+  padding: 20px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0d1321;
+}
+
+.btn-contact a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Banner Style ends here */
