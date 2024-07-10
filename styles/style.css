@@ -94,12 +94,14 @@
 .card-img {
   margin-left: 15px;
 }
-.btn-learn-more {
+.btn-learn-more,
+.btn-submit {
   padding: 12px 20px;
   border: 1px solid gray;
   margin-top: 36px;
 }
-.btn-learn-more a {
+.btn-learn-more a,
+.btn-submit a {
   font-size: 20px;
   font-weight: 700;
   color: #565a64;
@@ -110,7 +112,8 @@
 }
 .web-dev-title,
 .inspiration-title,
-.target-title {
+.target-title,
+.support-title {
   margin-bottom: 20px;
 }
 /* "Web Development" part ends */
@@ -129,9 +132,9 @@
   max-width: 70vw;
 }
 
+/* Tergate Section */
 .current-target-section {
   max-width: 70vw;
-  border: 2px solid #0d132110;
   margin: 50px auto 25px;
   border-radius: 16px;
 }
@@ -166,4 +169,40 @@
 .card-link > a {
   color: #0d1321;
   font-weight: 800;
+}
+
+/* Support Section */
+.support-section {
+  max-width: 70vw;
+  margin: 50px auto 25px;
+  border-radius: 16px;
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 36px 24px 36px;
+}
+
+form {
+  text-align: center;
+}
+
+.btn-submit {
+  border-radius: 8px;
+  border: none;
+}
+
+.support-title {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+}
+.support-brief {
+  color: #ffffff;
+}
+
+.submit-field input {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 40%;
 }
