@@ -9,7 +9,6 @@
   text-align: center;
 }
 
-
 .common-para {
   font-size: 16px;
 }
@@ -69,9 +68,6 @@
 }
 /* Banner Style ends here */
 
-
-
-
 /* "Web Development" part starts */
 .web-deve-section {
   max-width: 70vw;
@@ -112,27 +108,62 @@
 .secondary {
   margin-left: 32px;
 }
-.web-dev-title, .inspiration-title {
-    margin-bottom: 20px;
+.web-dev-title,
+.inspiration-title,
+.target-title {
+  margin-bottom: 20px;
 }
-/* "Web Development" part starts */
-
-
+/* "Web Development" part ends */
 
 /* My Inspiration Section */
-.youtube-thumb{
-
-    border: 2px solid #0d132110;
-    margin: 50px auto 50px;
-    border-radius: 16px;
-    padding: 80px 98px;
+.youtube-thumb {
+  border: 2px solid #0d132110;
+  margin: 50px auto 25px;
+  border-radius: 16px;
+  padding: 80px 98px;
 }
-.youtube-thumb>iframe{
-    border-radius: 16px;
+.youtube-thumb > iframe {
+  border-radius: 16px;
 }
-.inspiration-section{
-    max-width: 70vw;
+.inspiration-section {
+  max-width: 70vw;
 }
 
+.current-target-section {
+  max-width: 70vw;
+  border: 2px solid #0d132110;
+  margin: 50px auto 25px;
+  border-radius: 16px;
+}
 
+.target-card {
+  max-width: 30%;
+  padding: 40px;
+  border-radius: 16px;
+}
 
+#target-one {
+  background-color: #fff6f3;
+}
+#target-two {
+  background-color: #f2f6fe;
+}
+#target-three {
+  background-color: #fffdf2;
+}
+
+.target-card-container {
+  margin-top: 48px;
+  display: flex;
+}
+
+.card-link,
+.card-brief,
+.card-title {
+  margin-top: 24px;
+}
+
+.card-link > a {
+  color: #0d1321;
+  font-weight: 800;
+}
